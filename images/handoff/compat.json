@@ -1,0 +1,57 @@
+{
+ "threshold": 20.7,
+ "margin": 0.2,
+ "minOverlap": 300,
+ "pairs": [
+  [
+   "down",
+   "bg"
+  ],
+  [
+   "skin",
+   "bg"
+  ],
+  [
+   "head",
+   "skin"
+  ],
+  [
+   "mouth",
+   "skin"
+  ],
+  [
+   "eye",
+   "skin"
+  ]
+ ],
+ "sizes": [
+  {
+   "pair": "down-bg",
+   "bytes": 90
+  },
+  {
+   "pair": "skin-bg",
+   "bytes": 52
+  },
+  {
+   "pair": "head-skin",
+   "bytes": 213
+  },
+  {
+   "pair": "mouth-skin",
+   "bytes": 107
+  },
+  {
+   "pair": "eye-skin",
+   "bytes": 228
+  }
+ ],
+ "counts": {
+  "bg": 18,
+  "down": 40,
+  "skin": 23,
+  "head": 74,
+  "mouth": 37,
+  "eye": 79
+ }
+}

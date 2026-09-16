@@ -1,0 +1,33 @@
+{
+ "when": "2026-09-13T21:39:56.152Z",
+ "dir": "build/handoff/",
+ "pass": true,
+ "failures": 0,
+ "chunks": 8,
+ "deployBytes": 169944,
+ "traits": 271,
+ "exact": 262,
+ "shifted": 9,
+ "worstShift": 2,
+ "shiftedNames": [
+  "bg/BG 15.png",
+  "bg/BG 17.png",
+  "bg/BG 18.png",
+  "bg/glow02-a.png",
+  "bg/glow03-a.png",
+  "bg/glow04-a.png",
+  "bg/glow05-a.png",
+  "bg/glow07-a.png",
+  "bg/glow08-a.png"
+ ],
+ "codeLimit": 24576,
+ "fullestChunk": 24552,
+ "distinctDrawings": 270,
+ "twins": [],
+ "blankTwins": [
+  [
+   "head/head 3.png",
+   "mouth/mouth 4.png"
+  ]
+ ]
+}

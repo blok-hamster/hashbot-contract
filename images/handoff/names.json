@@ -1,0 +1,2180 @@
+{
+ "layers": {
+  "bg": "Background",
+  "skin": "Chassis",
+  "down": "Scene",
+  "head": "Headpiece",
+  "eye": "Visor",
+  "mouth": "Mask"
+ },
+ "traits": [
+  {
+   "file": "bg/BG 13.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Cold Fusion",
+   "colour": "Deep Cyan",
+   "value": "Cold Fusion"
+  },
+  {
+   "file": "bg/BG 14.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Solar Flare",
+   "colour": "Deep Magenta",
+   "value": "Solar Flare"
+  },
+  {
+   "file": "bg/BG 15.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Supernova",
+   "colour": "Deep Indigo",
+   "value": "Supernova"
+  },
+  {
+   "file": "bg/BG 17.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Blue Giant",
+   "colour": "Deep Cobalt",
+   "value": "Blue Giant"
+  },
+  {
+   "file": "bg/BG 18.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Aurora",
+   "colour": "Deep Cobalt",
+   "value": "Aurora"
+  },
+  {
+   "file": "bg/bg 3.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Rust Haze",
+   "colour": "Deep Crimson",
+   "value": "Rust Haze"
+  },
+  {
+   "file": "bg/bg 4.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Blood Moon",
+   "colour": "Deep Crimson",
+   "value": "Blood Moon"
+  },
+  {
+   "file": "bg/bg 5.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Deep Space",
+   "colour": "Deep Cobalt",
+   "value": "Deep Space"
+  },
+  {
+   "file": "bg/bg 6.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Nebula",
+   "colour": "Deep Magenta",
+   "value": "Nebula"
+  },
+  {
+   "file": "bg/bg 7.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Abyss",
+   "colour": "Deep Cobalt",
+   "value": "Abyss"
+  },
+  {
+   "file": "bg/glow01-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Toxic Bloom",
+   "colour": "Deep Jade",
+   "value": "Toxic Bloom"
+  },
+  {
+   "file": "bg/glow02-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Crimson Pulse",
+   "colour": "Deep Crimson",
+   "value": "Crimson Pulse"
+  },
+  {
+   "file": "bg/glow03-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Emerald Core",
+   "colour": "Deep Teal",
+   "value": "Emerald Core"
+  },
+  {
+   "file": "bg/glow04-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Amber Core",
+   "colour": "Deep Lime",
+   "value": "Amber Core"
+  },
+  {
+   "file": "bg/glow05-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Violet Surge",
+   "colour": "Indigo",
+   "value": "Violet Surge"
+  },
+  {
+   "file": "bg/glow06-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Dying Star",
+   "colour": "Deep Crimson",
+   "value": "Dying Star"
+  },
+  {
+   "file": "bg/glow07-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Magenta Drift",
+   "colour": "Deep Rose",
+   "value": "Magenta Drift"
+  },
+  {
+   "file": "bg/glow08-a.png",
+   "layer": "bg",
+   "trait_type": "Background",
+   "drawing": "Jade Drift",
+   "colour": "Deep Teal",
+   "value": "Jade Drift"
+  },
+  {
+   "file": "skin/skins2.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Pale Amber",
+   "value": "Pale Amber Chassis"
+  },
+  {
+   "file": "skin/skins1.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Crimson",
+   "value": "Deep Crimson Chassis"
+  },
+  {
+   "file": "skin/skins3-a.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Chassis"
+  },
+  {
+   "file": "skin/skins3-c.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Chassis"
+  },
+  {
+   "file": "skin/skins3.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Chassis"
+  },
+  {
+   "file": "skin/skins3-b.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Chassis"
+  },
+  {
+   "file": "skin/skins3-d.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Bright Rose",
+   "value": "Bright Rose Chassis"
+  },
+  {
+   "file": "skin/skin 11-b.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Jade",
+   "value": "Deep Jade Chassis"
+  },
+  {
+   "file": "skin/skin 8.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Crimson",
+   "value": "Crimson Chassis"
+  },
+  {
+   "file": "skin/skin 11-c.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Teal",
+   "value": "Deep Teal Chassis"
+  },
+  {
+   "file": "skin/skin 10.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Cobalt",
+   "value": "Deep Cobalt Chassis"
+  },
+  {
+   "file": "skin/skin 11-d.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Indigo",
+   "value": "Deep Indigo Chassis"
+  },
+  {
+   "file": "skin/skins1-a.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Lime",
+   "value": "Deep Lime Chassis"
+  },
+  {
+   "file": "skin/skin 10-b.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Rust",
+   "value": "Deep Rust Chassis"
+  },
+  {
+   "file": "skin/skin 9.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Violet",
+   "value": "Violet Chassis"
+  },
+  {
+   "file": "skin/skin 11.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Deep Magenta",
+   "value": "Deep Magenta Chassis"
+  },
+  {
+   "file": "skin/skin 9-a.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Rose",
+   "value": "Rose Chassis"
+  },
+  {
+   "file": "skin/skins2-b.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Chassis"
+  },
+  {
+   "file": "skin/skins2-d.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Chassis"
+  },
+  {
+   "file": "skin/skins4-b.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Cyan",
+   "value": "Cyan Chassis"
+  },
+  {
+   "file": "skin/skins4-c.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Jade",
+   "value": "Jade Chassis"
+  },
+  {
+   "file": "skin/skins4-a.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Amber",
+   "value": "Amber Chassis"
+  },
+  {
+   "file": "skin/skins2-c.png",
+   "layer": "skin",
+   "trait_type": "Chassis",
+   "drawing": "Chassis",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Chassis"
+  },
+  {
+   "file": "down/down 5.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Crystal City",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Crystal City"
+  },
+  {
+   "file": "down/down 2.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Marlin",
+   "colour": "Pale Cobalt",
+   "value": "Pale Cobalt Marlin"
+  },
+  {
+   "file": "down/down 7.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Smoulder",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Smoulder"
+  },
+  {
+   "file": "down/down 6-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Wildfire",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Wildfire"
+  },
+  {
+   "file": "down/down 5-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Crystal City",
+   "colour": "Pale Amber",
+   "value": "Pale Amber Crystal City"
+  },
+  {
+   "file": "down/down 6.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Wildfire",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Wildfire"
+  },
+  {
+   "file": "down/DOWN 9.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bone",
+   "value": "Bone Arc Bloom"
+  },
+  {
+   "file": "down/down 5-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Crystal City",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Crystal City"
+  },
+  {
+   "file": "down/down 5-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Crystal City",
+   "colour": "Pale Indigo",
+   "value": "Pale Indigo Crystal City"
+  },
+  {
+   "file": "down/down 2-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Marlin",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Marlin"
+  },
+  {
+   "file": "down/down 5-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Crystal City",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Crystal City"
+  },
+  {
+   "file": "down/down 4.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Violet",
+   "value": "Violet Equaliser"
+  },
+  {
+   "file": "down/down 7-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Smoulder",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Smoulder"
+  },
+  {
+   "file": "down/down 4-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Gold",
+   "value": "Gold Equaliser"
+  },
+  {
+   "file": "down/DOWN 10.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Arc Bloom"
+  },
+  {
+   "file": "down/down 6-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Wildfire",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Wildfire"
+  },
+  {
+   "file": "down/down 3.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Confetti",
+   "colour": "Bright Prism",
+   "value": "Bright Prism Confetti"
+  },
+  {
+   "file": "down/Down 11-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Arc Bloom"
+  },
+  {
+   "file": "down/down 6-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Wildfire",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Wildfire"
+  },
+  {
+   "file": "down/down 6-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Wildfire",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Wildfire"
+  },
+  {
+   "file": "down/down 12.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Jade",
+   "value": "Jade Equaliser"
+  },
+  {
+   "file": "down/down 2-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Marlin",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Marlin"
+  },
+  {
+   "file": "down/Down 11-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Arc Bloom"
+  },
+  {
+   "file": "down/down 2-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Marlin",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Marlin"
+  },
+  {
+   "file": "down/down 7-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Smoulder",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Smoulder"
+  },
+  {
+   "file": "down/down 2-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Marlin",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Marlin"
+  },
+  {
+   "file": "down/Down 11.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Arc Bloom"
+  },
+  {
+   "file": "down/down 4-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Cobalt",
+   "value": "Cobalt Equaliser"
+  },
+  {
+   "file": "down/down 4-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Rose",
+   "value": "Rose Equaliser"
+  },
+  {
+   "file": "down/down 7-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Smoulder",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Smoulder"
+  },
+  {
+   "file": "down/down 7-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Smoulder",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Smoulder"
+  },
+  {
+   "file": "down/Down 11-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 8-b.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 8-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 8.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 10-d.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Magenta",
+   "value": "Bright Magenta Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 8-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 8-c.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Arc Bloom"
+  },
+  {
+   "file": "down/DOWN 10-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Arc Bloom",
+   "colour": "Bright Lime",
+   "value": "Bright Lime Arc Bloom"
+  },
+  {
+   "file": "down/down 12-a.png",
+   "layer": "down",
+   "trait_type": "Scene",
+   "drawing": "Equaliser",
+   "colour": "Cyan",
+   "value": "Cyan Equaliser"
+  },
+  {
+   "file": "head/head 11.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Valkyrie Wings"
+  },
+  {
+   "file": "head/head19.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Arc Halo"
+  },
+  {
+   "file": "head/head 23.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Cobalt",
+   "value": "Cobalt Halo"
+  },
+  {
+   "file": "head/head 6.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Amber",
+   "value": "Deep Amber Ivy"
+  },
+  {
+   "file": "head/head 8.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Crimson",
+   "value": "Crimson Halo"
+  },
+  {
+   "file": "head/head 4.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Bone",
+   "value": "Bone Spark"
+  },
+  {
+   "file": "head/head 7.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Antennae",
+   "colour": "Crimson",
+   "value": "Crimson Antennae"
+  },
+  {
+   "file": "head/head16.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Sentry Orb",
+   "colour": "Deep Cyan",
+   "value": "Deep Cyan Sentry Orb"
+  },
+  {
+   "file": "head/head 3.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "None",
+   "colour": null,
+   "value": "None"
+  },
+  {
+   "file": "head/head 8-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Magenta",
+   "value": "Magenta Halo"
+  },
+  {
+   "file": "head/head 8-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Lime",
+   "value": "Lime Halo"
+  },
+  {
+   "file": "head/head 6-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Indigo",
+   "value": "Deep Indigo Ivy"
+  },
+  {
+   "file": "head/head 23-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Jade",
+   "value": "Jade Halo"
+  },
+  {
+   "file": "head/head20-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Indigo",
+   "value": "Bright Indigo Arc Halo"
+  },
+  {
+   "file": "head/head 12.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Valkyrie Wings"
+  },
+  {
+   "file": "head/head21-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Jade",
+   "value": "Jade Spark"
+  },
+  {
+   "file": "head/head 5.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Jade",
+   "value": "Deep Jade Ivy"
+  },
+  {
+   "file": "head/head21-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Indigo",
+   "value": "Indigo Spark"
+  },
+  {
+   "file": "head/head 6-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Cyan",
+   "value": "Deep Cyan Ivy"
+  },
+  {
+   "file": "head/head18.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Arc Halo"
+  },
+  {
+   "file": "head/head20.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Arc Halo"
+  },
+  {
+   "file": "head/head22-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Crimson",
+   "value": "Crimson Spark"
+  },
+  {
+   "file": "head/head 14.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Lime",
+   "value": "Pale Lime Valkyrie Wings"
+  },
+  {
+   "file": "head/head 6-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Rose",
+   "value": "Deep Rose Ivy"
+  },
+  {
+   "file": "head/head 23-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Gold",
+   "value": "Gold Halo"
+  },
+  {
+   "file": "head/head21.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Cyan",
+   "value": "Cyan Spark"
+  },
+  {
+   "file": "head/head 1.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Onyx",
+   "value": "Onyx Arc Halo"
+  },
+  {
+   "file": "head/head 23-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Violet",
+   "value": "Violet Halo"
+  },
+  {
+   "file": "head/head20-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Arc Halo"
+  },
+  {
+   "file": "head/head22.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Gold",
+   "value": "Gold Spark"
+  },
+  {
+   "file": "head/head 12-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Bright Magenta",
+   "value": "Bright Magenta Valkyrie Wings"
+  },
+  {
+   "file": "head/head 8-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Teal",
+   "value": "Teal Halo"
+  },
+  {
+   "file": "head/head 12-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Valkyrie Wings"
+  },
+  {
+   "file": "head/head18-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Magenta",
+   "value": "Bright Magenta Arc Halo"
+  },
+  {
+   "file": "head/head 14-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Crimson",
+   "value": "Pale Crimson Valkyrie Wings"
+  },
+  {
+   "file": "head/head 12-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Valkyrie Wings"
+  },
+  {
+   "file": "head/head20-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Rose",
+   "value": "Bright Rose Arc Halo"
+  },
+  {
+   "file": "head/head18-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Arc Halo"
+  },
+  {
+   "file": "head/head 15.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Valkyrie Wings"
+  },
+  {
+   "file": "head/head 14-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Magenta",
+   "value": "Pale Magenta Valkyrie Wings"
+  },
+  {
+   "file": "head/head20-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Amber",
+   "value": "Bright Amber Arc Halo"
+  },
+  {
+   "file": "head/head 7-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Antennae",
+   "colour": "Cobalt",
+   "value": "Cobalt Antennae"
+  },
+  {
+   "file": "head/head 5-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Violet",
+   "value": "Deep Violet Ivy"
+  },
+  {
+   "file": "head/head21-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Amber",
+   "value": "Amber Spark"
+  },
+  {
+   "file": "head/head 15-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Valkyrie Wings"
+  },
+  {
+   "file": "head/head 11-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Valkyrie Wings"
+  },
+  {
+   "file": "head/head21-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Rose",
+   "value": "Rose Spark"
+  },
+  {
+   "file": "head/head22-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Cobalt",
+   "value": "Cobalt Spark"
+  },
+  {
+   "file": "head/head19-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Arc Halo"
+  },
+  {
+   "file": "head/head22-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Spark",
+   "colour": "Violet",
+   "value": "Violet Spark"
+  },
+  {
+   "file": "head/head 12-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Bright Lime",
+   "value": "Bright Lime Valkyrie Wings"
+  },
+  {
+   "file": "head/head 11-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Valkyrie Wings"
+  },
+  {
+   "file": "head/head 2.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Sentry Orb",
+   "colour": "Deep Crimson",
+   "value": "Deep Crimson Sentry Orb"
+  },
+  {
+   "file": "head/head 14-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Valkyrie Wings",
+   "colour": "Pale Cobalt",
+   "value": "Pale Cobalt Valkyrie Wings"
+  },
+  {
+   "file": "head/head 7-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Antennae",
+   "colour": "Lime",
+   "value": "Lime Antennae"
+  },
+  {
+   "file": "head/head 7-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Antennae",
+   "colour": "Magenta",
+   "value": "Magenta Antennae"
+  },
+  {
+   "file": "head/head 5-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Ivy",
+   "colour": "Deep Gold",
+   "value": "Deep Gold Ivy"
+  },
+  {
+   "file": "head/head 7-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Antennae",
+   "colour": "Jade",
+   "value": "Jade Antennae"
+  },
+  {
+   "file": "head/head 2-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Sentry Orb",
+   "colour": "Deep Jade",
+   "value": "Deep Jade Sentry Orb"
+  },
+  {
+   "file": "head/head16-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Sentry Orb",
+   "colour": "Deep Violet",
+   "value": "Deep Violet Sentry Orb"
+  },
+  {
+   "file": "head/head18-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bright Lime",
+   "value": "Bright Lime Arc Halo"
+  },
+  {
+   "file": "head/head16-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Sentry Orb",
+   "colour": "Deep Amber",
+   "value": "Deep Amber Sentry Orb"
+  },
+  {
+   "file": "head/head 1-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Moss",
+   "value": "Moss Arc Halo"
+  },
+  {
+   "file": "head/head 1-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Bronze",
+   "value": "Bronze Arc Halo"
+  },
+  {
+   "file": "head/head 1-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Mauve",
+   "value": "Mauve Arc Halo"
+  },
+  {
+   "file": "head/head 1-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Arc Halo",
+   "colour": "Steel",
+   "value": "Steel Arc Halo"
+  },
+  {
+   "file": "head/head 9-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Wide Halo",
+   "colour": "Deep Umber",
+   "value": "Deep Umber Wide Halo"
+  },
+  {
+   "file": "head/head 9-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Wide Halo",
+   "colour": "Deep Steel",
+   "value": "Deep Steel Wide Halo"
+  },
+  {
+   "file": "head/head 9-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Wide Halo",
+   "colour": "Deep Moss",
+   "value": "Deep Moss Wide Halo"
+  },
+  {
+   "file": "head/head 9-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Wide Halo",
+   "colour": "Deep Mauve",
+   "value": "Deep Mauve Wide Halo"
+  },
+  {
+   "file": "head/head17-a.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Deep Umber",
+   "value": "Deep Umber Halo"
+  },
+  {
+   "file": "head/head17-b.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Deep Steel",
+   "value": "Deep Steel Halo"
+  },
+  {
+   "file": "head/head17-c.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Deep Moss",
+   "value": "Deep Moss Halo"
+  },
+  {
+   "file": "head/head17-d.png",
+   "layer": "head",
+   "trait_type": "Headpiece",
+   "drawing": "Halo",
+   "colour": "Deep Mauve",
+   "value": "Deep Mauve Halo"
+  },
+  {
+   "file": "eye/eye 2.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Beam"
+  },
+  {
+   "file": "eye/eye11.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Circuit Visor"
+  },
+  {
+   "file": "eye/eye13.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Pepe Hologram"
+  },
+  {
+   "file": "eye/eye1.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Beam"
+  },
+  {
+   "file": "eye/EYE 11.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Globe Hologram",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Globe Hologram"
+  },
+  {
+   "file": "eye/eye1-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Lime",
+   "value": "Bright Lime Beam"
+  },
+  {
+   "file": "eye/eye1-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Magenta",
+   "value": "Bright Magenta Beam"
+  },
+  {
+   "file": "eye/eye13-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Pepe Hologram"
+  },
+  {
+   "file": "eye/eye 2-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Beam"
+  },
+  {
+   "file": "eye/eye13-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Pepe Hologram"
+  },
+  {
+   "file": "eye/EYE 11-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Globe Hologram",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Globe Hologram"
+  },
+  {
+   "file": "eye/eye 3-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Bitcoin Hologram",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Bitcoin Hologram"
+  },
+  {
+   "file": "eye/eye 3-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Bitcoin Hologram",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Bitcoin Hologram"
+  },
+  {
+   "file": "eye/mouth 9.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Goggles",
+   "colour": "Cyan",
+   "value": "Cyan Goggles"
+  },
+  {
+   "file": "eye/eye 3-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Bitcoin Hologram",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Bitcoin Hologram"
+  },
+  {
+   "file": "eye/eye 2-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Beam"
+  },
+  {
+   "file": "eye/eye 3.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Bitcoin Hologram",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Bitcoin Hologram"
+  },
+  {
+   "file": "eye/eye14-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Skull Hologram"
+  },
+  {
+   "file": "eye/EYE 11-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Globe Hologram",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Globe Hologram"
+  },
+  {
+   "file": "eye/EYE 11-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Globe Hologram",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Globe Hologram"
+  },
+  {
+   "file": "eye/eye 3-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Bitcoin Hologram",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Bitcoin Hologram"
+  },
+  {
+   "file": "eye/EYE 11-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Globe Hologram",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Globe Hologram"
+  },
+  {
+   "file": "eye/eye13-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Pepe Hologram"
+  },
+  {
+   "file": "eye/eye14.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Crimson",
+   "value": "Pale Crimson Skull Hologram"
+  },
+  {
+   "file": "eye/eye14-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Skull Hologram"
+  },
+  {
+   "file": "eye/eye13-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Pepe Hologram"
+  },
+  {
+   "file": "eye/eye 12.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Skull Hologram"
+  },
+  {
+   "file": "eye/eye14-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Magenta",
+   "value": "Pale Magenta Skull Hologram"
+  },
+  {
+   "file": "eye/eye 8-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Honeycomb",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Honeycomb"
+  },
+  {
+   "file": "eye/eye 8.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Honeycomb",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Honeycomb"
+  },
+  {
+   "file": "eye/eye 4-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Pepe Hologram"
+  },
+  {
+   "file": "eye/eye 4-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Pale Gold",
+   "value": "Pale Gold Pepe Hologram"
+  },
+  {
+   "file": "eye/eye 12-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Skull Hologram"
+  },
+  {
+   "file": "eye/eye 4.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Pale Cyan",
+   "value": "Pale Cyan Pepe Hologram"
+  },
+  {
+   "file": "eye/mouth 9-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Goggles",
+   "colour": "Gold",
+   "value": "Gold Goggles"
+  },
+  {
+   "file": "eye/eye 12-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Violet",
+   "value": "Pale Violet Skull Hologram"
+  },
+  {
+   "file": "eye/eye 4-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Pale Rose",
+   "value": "Pale Rose Pepe Hologram"
+  },
+  {
+   "file": "eye/eye 2-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Beam",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Beam"
+  },
+  {
+   "file": "eye/eye 8-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Honeycomb",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Honeycomb"
+  },
+  {
+   "file": "eye/eye14-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Skull Hologram",
+   "colour": "Pale Cobalt",
+   "value": "Pale Cobalt Skull Hologram"
+  },
+  {
+   "file": "eye/eye 8-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Honeycomb",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Honeycomb"
+  },
+  {
+   "file": "eye/eye 13.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Diamond Visor",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Diamond Visor"
+  },
+  {
+   "file": "eye/eye 4-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pepe Hologram",
+   "colour": "Pale Jade",
+   "value": "Pale Jade Pepe Hologram"
+  },
+  {
+   "file": "eye/mouth 9-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Goggles",
+   "colour": "Jade",
+   "value": "Jade Goggles"
+  },
+  {
+   "file": "eye/eye 5.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pizza Day",
+   "colour": "Amber",
+   "value": "Amber Pizza Day"
+  },
+  {
+   "file": "eye/mouth 9-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Goggles",
+   "colour": "Rose",
+   "value": "Rose Goggles"
+  },
+  {
+   "file": "eye/mouth 9-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Goggles",
+   "colour": "Violet",
+   "value": "Violet Goggles"
+  },
+  {
+   "file": "eye/eye 8-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Honeycomb",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Honeycomb"
+  },
+  {
+   "file": "eye/eye12.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Circuit Visor"
+  },
+  {
+   "file": "eye/EYE 10-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Circuit Visor"
+  },
+  {
+   "file": "eye/eye 5-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pizza Day",
+   "colour": "Cyan",
+   "value": "Cyan Pizza Day"
+  },
+  {
+   "file": "eye/eye 5-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pizza Day",
+   "colour": "Rose",
+   "value": "Rose Pizza Day"
+  },
+  {
+   "file": "eye/eye 16-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Data Visor",
+   "colour": "Amber",
+   "value": "Amber Data Visor"
+  },
+  {
+   "file": "eye/eye11-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Circuit Visor"
+  },
+  {
+   "file": "eye/eye 5-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pizza Day",
+   "colour": "Jade",
+   "value": "Jade Pizza Day"
+  },
+  {
+   "file": "eye/eye 5-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Pizza Day",
+   "colour": "Indigo",
+   "value": "Indigo Pizza Day"
+  },
+  {
+   "file": "eye/eye11-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Lime",
+   "value": "Bright Lime Circuit Visor"
+  },
+  {
+   "file": "eye/EYE 10.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Circuit Visor"
+  },
+  {
+   "file": "eye/eye15-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Readout Visor",
+   "colour": "Deep Violet",
+   "value": "Deep Violet Readout Visor"
+  },
+  {
+   "file": "eye/eye15-e.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Readout Visor",
+   "colour": "Deep Lime",
+   "value": "Deep Lime Readout Visor"
+  },
+  {
+   "file": "eye/EYE 10-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Rose",
+   "value": "Bright Rose Circuit Visor"
+  },
+  {
+   "file": "eye/EYE 10-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Indigo",
+   "value": "Bright Indigo Circuit Visor"
+  },
+  {
+   "file": "eye/EYE 10-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Amber",
+   "value": "Bright Amber Circuit Visor"
+  },
+  {
+   "file": "eye/eye 15.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Power Visor",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Power Visor"
+  },
+  {
+   "file": "eye/eye 16-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Data Visor",
+   "colour": "Cyan",
+   "value": "Cyan Data Visor"
+  },
+  {
+   "file": "eye/eye15.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Readout Visor",
+   "colour": "Deep Jade",
+   "value": "Deep Jade Readout Visor"
+  },
+  {
+   "file": "eye/eye 16-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Data Visor",
+   "colour": "Violet",
+   "value": "Violet Data Visor"
+  },
+  {
+   "file": "eye/eye15-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Readout Visor",
+   "colour": "Deep Amber",
+   "value": "Deep Amber Readout Visor"
+  },
+  {
+   "file": "eye/eye 15-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Power Visor",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Power Visor"
+  },
+  {
+   "file": "eye/eye15-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Readout Visor",
+   "colour": "Deep Cyan",
+   "value": "Deep Cyan Readout Visor"
+  },
+  {
+   "file": "eye/eye 15-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Power Visor",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Power Visor"
+  },
+  {
+   "file": "eye/eye 13-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Diamond Visor",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Diamond Visor"
+  },
+  {
+   "file": "eye/eye 13-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Diamond Visor",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Diamond Visor"
+  },
+  {
+   "file": "eye/eye 15-c.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Power Visor",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Power Visor"
+  },
+  {
+   "file": "eye/eye 13-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Diamond Visor",
+   "colour": "Bright Amber",
+   "value": "Bright Amber Diamond Visor"
+  },
+  {
+   "file": "eye/eye 15-a.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Power Visor",
+   "colour": "Bright Amber",
+   "value": "Bright Amber Power Visor"
+  },
+  {
+   "file": "eye/eye11-d.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Circuit Visor",
+   "colour": "Bright Magenta",
+   "value": "Bright Magenta Circuit Visor"
+  },
+  {
+   "file": "eye/eye 16.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Data Visor",
+   "colour": "Jade",
+   "value": "Jade Data Visor"
+  },
+  {
+   "file": "eye/eye 13-b.png",
+   "layer": "eye",
+   "trait_type": "Visor",
+   "drawing": "Diamond Visor",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Diamond Visor"
+  },
+  {
+   "file": "mouth/mouth 4.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "None",
+   "colour": null,
+   "value": "None"
+  },
+  {
+   "file": "mouth/mouth14.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Cobalt",
+   "value": "Deep Cobalt Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth e.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Obsidian",
+   "value": "Obsidian Respirator"
+  },
+  {
+   "file": "mouth/mouth10.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Gold",
+   "value": "Bright Gold Scarf"
+  },
+  {
+   "file": "mouth/mouth14-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Lime",
+   "value": "Deep Lime Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth 6.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Crimson",
+   "value": "Deep Crimson Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth14-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Violet",
+   "value": "Deep Violet Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth14-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Jade",
+   "value": "Deep Jade Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth 7.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Onyx",
+   "value": "Onyx Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth 9-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Indigo",
+   "value": "Bright Indigo Scarf"
+  },
+  {
+   "file": "mouth/mouth11.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Onyx",
+   "value": "Onyx Scarf"
+  },
+  {
+   "file": "mouth/mouth 9.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Cyan",
+   "value": "Bright Cyan Scarf"
+  },
+  {
+   "file": "mouth/mouth10-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Crimson",
+   "value": "Bright Crimson Scarf"
+  },
+  {
+   "file": "mouth/mouth 9-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Scarf"
+  },
+  {
+   "file": "mouth/mouth12.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Indigo",
+   "value": "Indigo Respirator"
+  },
+  {
+   "file": "mouth/mouth 1.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Jade",
+   "value": "Jade Respirator"
+  },
+  {
+   "file": "mouth/mouth 2.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Crimson",
+   "value": "Crimson Respirator"
+  },
+  {
+   "file": "mouth/mouth 6-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Deep Magenta",
+   "value": "Deep Magenta Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth13.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Gold",
+   "value": "Gold Respirator"
+  },
+  {
+   "file": "mouth/mouth13-b.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Cyan",
+   "value": "Cyan Respirator"
+  },
+  {
+   "file": "mouth/mouth 9-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Amber",
+   "value": "Bright Amber Scarf"
+  },
+  {
+   "file": "mouth/mouth 9-b.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Rose",
+   "value": "Bright Rose Scarf"
+  },
+  {
+   "file": "mouth/mouth10-b.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Cobalt",
+   "value": "Bright Cobalt Scarf"
+  },
+  {
+   "file": "mouth/mouth 7-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Bright Jade",
+   "value": "Bright Jade Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth10-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Bright Violet",
+   "value": "Bright Violet Scarf"
+  },
+  {
+   "file": "mouth/mouth13-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Violet",
+   "value": "Violet Respirator"
+  },
+  {
+   "file": "mouth/mouth 7-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Bright Bronze",
+   "value": "Bright Bronze Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth 7-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Bright Mauve",
+   "value": "Bright Mauve Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth 7-b.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Fanged Jaw",
+   "colour": "Bright Steel",
+   "value": "Bright Steel Fanged Jaw"
+  },
+  {
+   "file": "mouth/mouth13-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Rust",
+   "value": "Rust Respirator"
+  },
+  {
+   "file": "mouth/mouth11-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Deep Moss",
+   "value": "Deep Moss Scarf"
+  },
+  {
+   "file": "mouth/mouth11-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Scarf",
+   "colour": "Deep Bronze",
+   "value": "Deep Bronze Scarf"
+  },
+  {
+   "file": "mouth/mouth e-c.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Bright Moss",
+   "value": "Bright Moss Respirator"
+  },
+  {
+   "file": "mouth/mouth 1-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Amber",
+   "value": "Amber Respirator"
+  },
+  {
+   "file": "mouth/mouth e-b.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Bright Steel",
+   "value": "Bright Steel Respirator"
+  },
+  {
+   "file": "mouth/mouth e-d.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Bright Mauve",
+   "value": "Bright Mauve Respirator"
+  },
+  {
+   "file": "mouth/mouth e-a.png",
+   "layer": "mouth",
+   "trait_type": "Mask",
+   "drawing": "Respirator",
+   "colour": "Bright Bronze",
+   "value": "Bright Bronze Respirator"
+  }
+ ]
+}
