@@ -40,6 +40,7 @@ contract DeployRobinhood is Script {
         // 1. Deploy Core Token and Pool
         HashToken bot = new HashToken();
         Pool pool = new Pool(IHashToken(address(bot)), weth, ISwapRouter(router), 3000, 500);
+        pool.setKeeper(deployer, true);
 
         // 2. Deploy main PowBots game contract
         PowBots bots = new PowBots(
