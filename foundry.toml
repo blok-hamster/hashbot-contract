@@ -25,6 +25,5 @@ line_length = 120
 
 [rpc_endpoints]
 robinhood = "https://rpc.mainnet.chain.robinhood.com"
-base_sepolia = "https://sepolia.base.org"
-sepolia = "https://ethereum-sepolia-rpc.publicnode.com"
+robinhood_testnet = "https://rpc.testnet.chain.robinhood.com"
 anvil = "http://127.0.0.1:8545"

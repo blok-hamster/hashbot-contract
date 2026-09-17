@@ -13,20 +13,17 @@ import {IHashToken} from "../src/interfaces/IHashToken.sol";
 import {IPool} from "../src/interfaces/IPool.sol";
 import {ISwapRouter} from "../src/interfaces/ISwapRouter.sol";
 
-/// @notice Testnet deployment script (Base Sepolia L2, chainId 84532).
+/// @notice Testnet deployment script targeting Robinhood Chain Testnet (chainId 46630).
 ///         Deploys HashToken -> Pool -> PowBots -> HashBotsRenderer -> Rarity,
 ///         wires minter/owner roles, seeds 1M genesis $BOT into Pool, and
 ///         automatically writes deployed addresses to ui/src/lib/addresses.json.
 ///
 ///   forge script script/DeployTestnet.s.sol:DeployTestnet \
-///       --rpc-url base_sepolia --broadcast -vvvv
+///       --rpc-url robinhood_testnet --broadcast -vvvv
 contract DeployTestnet is Script {
-    // Base Sepolia & Ethereum Sepolia DEX constants
-    address internal constant BASE_SEPOLIA_SWAP_ROUTER = 0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4;
-    address internal constant BASE_SEPOLIA_WETH = 0x4200000000000000000000000000000000000006;
-
-    address internal constant ETH_SEPOLIA_SWAP_ROUTER = 0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E;
-    address internal constant ETH_SEPOLIA_WETH = 0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9;
+    // Robinhood Testnet DEX constants
+    address internal constant RH_TESTNET_SWAP_ROUTER = 0xCaf681a66D020601342297493863E78C959E5cb2;
+    address internal constant RH_TESTNET_WETH = 0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73;
 
     address[8] internal chunks;
 
@@ -38,11 +35,9 @@ contract DeployTestnet is Script {
 
         vm.startBroadcast(pk);
 
-        address defaultRouter = block.chainid == 11155111 ? ETH_SEPOLIA_SWAP_ROUTER : BASE_SEPOLIA_SWAP_ROUTER;
-        address defaultWeth = block.chainid == 11155111 ? ETH_SEPOLIA_WETH : BASE_SEPOLIA_WETH;
+        address router = vm.envOr("SWAP_ROUTER", RH_TESTNET_SWAP_ROUTER);
+        address weth = vm.envOr("WETH", RH_TESTNET_WETH);
 
-        address router = vm.envOr("SWAP_ROUTER", defaultRouter);
-        address weth = vm.envOr("WETH", defaultWeth);
 
         // 1. Deploy Core Token and Pool
         HashToken bot = new HashToken();
