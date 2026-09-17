@@ -49,7 +49,7 @@ contract DeployRobinhood is Script {
             IHashToken(address(bot)),
             IPool(address(pool)),
             4,     // floorBits (4 bits target for fast instant mining)
-            16376, // wallFrom
+            4444,  // wallFrom (4444 collection wall)
             200,   // wallDiv
             1024,  // uniqueWindow
             16,    // uniqueTotal

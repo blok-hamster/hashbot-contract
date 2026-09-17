@@ -167,7 +167,7 @@ contract EconTest is HashBotsTestBase {
     }
 
     function test_Unique_Drops_EveryWindow_UpToCap() public {
-        _deployFull(6, 16376, 200, 4, 5, 100); // unique every 4th mint, cap 5
+        _deployFull(6, 4444, 200, 4, 5, 100); // unique every 4th mint, cap 5
         for (uint256 i = 0; i < 20; i++) {
             vm.warp(block.timestamp + 65);
             _mint(address(uint160(0x500 + i)));
@@ -181,7 +181,7 @@ contract EconTest is HashBotsTestBase {
     }
 
     function test_Unique_SkipsAfterCap() public {
-        _deployFull(6, 16376, 200, 4, 2, 100); // only 2 uniques in the whole run
+        _deployFull(6, 4444, 200, 4, 2, 100); // only 2 uniques in the whole run
         for (uint256 i = 0; i < 16; i++) {
             vm.warp(block.timestamp + 65);
             _mint(address(uint160(0x600 + i)));
@@ -192,7 +192,7 @@ contract EconTest is HashBotsTestBase {
 
     function test_Token_MintableOnlyBy_BotsContract() public {
         vm.prank(bob);
-        vm.expectRevert(bytes("Only PowBots"));
+        vm.expectRevert(bytes("Hard Cap: 1M Total Supply Capped"));
         token.mint(bob, 1e18);
     }
 

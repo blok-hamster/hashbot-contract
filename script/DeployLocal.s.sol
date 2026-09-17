@@ -27,7 +27,7 @@ contract DeployLocal is Script {
         Pool pool = new Pool(IHashToken(address(bot)), weth, ISwapRouter(address(0xdead)), 3000, 500);
         PowBots bots = new PowBots(
             "HashBots", "HASHBOTS", IHashToken(address(bot)), IPool(address(pool)),
-            9, 16376, 200, 1024, 16, 1
+            9, 4444, 200, 1024, 16, 1
         );
 
         // Deploy HashBotsRenderer with on-chain SVG chunk files

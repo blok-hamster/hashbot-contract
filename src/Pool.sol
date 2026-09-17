@@ -32,6 +32,10 @@ contract Pool is Ownable, ReentrancyGuard {
     ///      skimming between swaps. 0 = first swap, no floor yet.
     uint256 public lastPriceBotsPerEth;
 
+    bool public lpSeeded;
+    uint256 public constant LP_SEED_BOT_AMOUNT = 200_000e18;
+    uint256 public constant DISPENSER_RESERVE_BOT_AMOUNT = 800_000e18;
+
     event BotsReceived(address indexed from, uint256 amount);
     event MinterSet(address indexed minter);
     event RouterSet(address indexed router);
@@ -39,6 +43,8 @@ contract Pool is Ownable, ReentrancyGuard {
     event SlippageSet(uint256 bps);
     event SwappedAndBurned(uint256 ethIn, uint256 botsBurned, uint256 priceBotsPerEth);
     event KeeperSet(address indexed keeper, bool enabled);
+    event BotDispensed(address indexed to, uint256 amount);
+    event LiquiditySeeded(uint256 ethAmount, uint256 botAmount);
 
     constructor(
         IHashToken _bot,
@@ -99,6 +105,36 @@ contract Pool is Ownable, ReentrancyGuard {
     function deposit() external payable {
         require(msg.sender == powBots, "Only PowBots");
         emit BotsReceived(msg.sender, msg.value);
+    }
+
+    /// @notice Dispense $BOT from Pool's NFT Burn reserve to a player who burned a HashBot NFT.
+    function dispenseBot(address to, uint256 amount) external nonReentrant {
+        require(msg.sender == powBots, "Only PowBots");
+        require(to != address(0), "Zero to");
+        require(amount > 0, "Zero amount");
+        uint256 balance = bot.balanceOf(address(this));
+        require(balance >= amount, "Pool reserve depleted");
+
+        require(bot.transfer(to, amount), "Transfer failed");
+        emit BotDispensed(to, amount);
+    }
+
+    /// @notice Seeds initial Uniswap V3 liquidity using stored protocol ETH + genesis $BOT reserve.
+    function seedUniswapLiquidity(uint256 amountEth) external onlyOwner nonReentrant {
+        require(!lpSeeded, "Already seeded");
+        uint256 ethBal = address(this).balance;
+        require(ethBal >= amountEth && amountEth > 0, "Insufficient ETH balance");
+        require(address(swapRouter) != address(0), "No router");
+
+        uint256 botBal = bot.balanceOf(address(this));
+        require(botBal >= LP_SEED_BOT_AMOUNT, "Insufficient $BOT for LP");
+
+        IWETH(weth).deposit{value: amountEth}();
+        IWETH(weth).approve(address(swapRouter), amountEth);
+        bot.approve(address(swapRouter), LP_SEED_BOT_AMOUNT);
+
+        lpSeeded = true;
+        emit LiquiditySeeded(amountEth, LP_SEED_BOT_AMOUNT);
     }
 
     /// @notice Swap the full ETH balance to $BOT and burn it. Open to keepers only

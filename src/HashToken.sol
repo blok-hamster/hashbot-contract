@@ -28,11 +28,9 @@ contract HashToken is ERC20, Ownable, IHashToken {
         emit MinterSet(_powBots);
     }
 
-    /// @notice Only PowBots may mint (on burn). Genesis cap excludes these.
-    function mint(address to, uint256 amount) external {
-        require(msg.sender == powBots, "Only PowBots");
-        _mint(to, amount);
-        emit Minted(to, amount);
+    /// @notice Deprecated mint path — $BOT is hard-capped at 1,000,000 genesis supply.
+    function mint(address to, uint256 amount) external pure {
+        revert("Hard Cap: 1M Total Supply Capped");
     }
 
     function burn(uint256 amount) external {

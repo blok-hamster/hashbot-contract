@@ -19,7 +19,7 @@ contract StakeTest is HashBotsTestBase {
     HashBotsRenderer internal renderer;
 
     function setUp() public {
-        _deployFull(1, 16376, 200, 1024, 16, 0);
+        _deployFull(1, 4444, 200, 1024, 16, 0);
         _deployRenderer();
     }
 

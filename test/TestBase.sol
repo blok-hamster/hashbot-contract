@@ -71,7 +71,7 @@ abstract contract HashBotsTestBase is Test {
 
     // Prod defaults for reference.
     uint256 internal constant PROD_FLOOR_BITS = 26;
-    uint256 internal constant PROD_WALL_FROM = 16376;
+    uint256 internal constant PROD_WALL_FROM = 4444;
     uint256 internal constant PROD_WALL_DIV = 200;
     uint256 internal constant PROD_UNIQUE_WINDOW = 1024;
     uint256 internal constant PROD_UNIQUE_TOTAL = 16;
@@ -103,9 +103,8 @@ abstract contract HashBotsTestBase is Test {
         pool.setKeeper(address(this), true); // buyback tests call swapAndBurn as the test contract
 
         // Seed the pool with the 1M genesis $BOT and give the mock router BOT for buyback tests.
-        uint256 liquidityForRouter = 10_000e18;
-        token.transfer(address(router), liquidityForRouter);
-        token.transfer(address(pool), token.GENESIS_SUPPLY() - liquidityForRouter);
+        token.transfer(address(pool), token.GENESIS_SUPPLY());
+        deal(address(token), address(router), 10_000e18);
     }
 
     /// @dev Solve the puzzle for `miner` and mint. Returns the tokenId.

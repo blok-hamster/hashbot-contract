@@ -17,7 +17,7 @@ contract ForgeTest is HashBotsTestBase {
     HashBotsRenderer internal renderer;
 
     function setUp() public {
-        _deployFull(1, 16376, 200, 1024, 16, 0); // supplyFloor = 0 for forge tests
+        _deployFull(1, 4444, 200, 1024, 16, 0); // supplyFloor = 0 for forge tests
         _deployRenderer();
     }
 
@@ -383,7 +383,7 @@ contract ForgeTest is HashBotsTestBase {
 
     function test_Forge_RevertsBelowFloor() public {
         // Deploy with floor = 5: forge requires alive - 2 >= 5 → alive >= 7.
-        _deployFull(1, 16376, 200, 1024, 16, 5);
+        _deployFull(1, 4444, 200, 1024, 16, 5);
         _deployRenderer();
 
         // Mint only 4 bots → aliveCount = 4 < 7 → forge reverts.

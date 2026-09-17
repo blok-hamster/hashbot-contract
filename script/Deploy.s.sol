@@ -39,7 +39,7 @@ contract Deploy is Script {
             IHashToken(address(bot)),
             IPool(address(pool)),
             26,    // floorBits — full difficulty floor at epoch 0
-            16376, // wallFrom — wall kick-in
+            4444,  // wallFrom — 4444 collection wall
             200,   // wallDiv
             1024,  // uniqueWindow
             16,    // uniqueTotal

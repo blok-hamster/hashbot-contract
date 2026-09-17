@@ -276,7 +276,7 @@ contract ForkTest is HashBotsTestBase {
         );
         bots = new PowBots(
             "HashBots", "HASHBOTS", IHashToken(address(token)), IPool(address(pool)),
-            1, 16376, 200, 1024, 16, 1 // floorBits=1 keeps fork solves fast; floor supply=1 keeps forging legal
+            1, 4444, 200, 1024, 16, 1 // floorBits=1 keeps fork solves fast; floor supply=1 keeps forging legal
         );
 
         // The exact wiring graph every deploy creates.
@@ -355,11 +355,8 @@ contract ForkTest is HashBotsTestBase {
         assertGt(liq, 0, "LP liquidity > 0");
         assertGt(IUniswapV3Pool(v3pool).liquidity(), 0, "pool live");
 
-        // ── GAP-3 PROOF: the 1M genesis sitting in the Pool never moved. There is NO
-        //    code path that lets the Pool contribute liquidity; the LP was seeded ONLY
-        //    with burn-minted $BOT + independently wrapped WETH. The gap is real, by design:
-        //    the LP bootstrap program must mint→burn bots and supply external ETH itself.
-        assertEq(token.balanceOf(address(pool)), token.GENESIS_SUPPLY(), "genesis untouched by LP bootstrap");
+        // ── PROOF: 6,000 $BOT was dispensed by the Pool for the 6 burned bots.
+        assertEq(token.balanceOf(address(pool)), token.GENESIS_SUPPLY() - 6000e18, "pool dispensed burn rewards");
 
         // ── More mints fund the buyback pool (30% of each mint: HOOK_BPS). ──
         for (uint256 i = 0; i < 10; i++) {

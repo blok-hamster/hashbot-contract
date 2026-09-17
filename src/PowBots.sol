@@ -29,7 +29,7 @@ contract PowBots is ERC721, ERC2981, Ownable, ReentrancyGuard {
     uint256 public constant BURST_SHIFT_CAP  = 16; // max streak multiplier (bits)
     uint256 public constant BURST_COOL       = 60; // seconds per burst bit to cool
     uint256 public constant FAILSAFE_MAX     = 20; // idle windows before difficulty halve
-    uint256 public constant WALL_FROM_CAP    = 16376; // production wall kick-in
+    uint256 public constant WALL_FROM_CAP    = 4444; // production wall kick-in (4444 collection cap)
     uint256 public constant WALL_DIV_DEFAULT = 200;
 
     // ── Mining ─────────────────────────────────────────────────────────────────
@@ -55,7 +55,7 @@ contract PowBots is ERC721, ERC2981, Ownable, ReentrancyGuard {
     uint256 public constant FORGE_COOLDOWN = 60;           // decision sheet row 3
     uint256 public constant FORGE_AGE_GATE = 600;          // doc:132 — inputs must be this old
     uint256 public constant FORGE_LOCK     = 24 hours;     // doc:133 — output can't sell/forge 24h
-    uint256 public constant FORGE_ID_START = 100001;       // above the mint id space (wall caps at 16,376)
+    uint256 public constant FORGE_ID_START = 100001;       // above the mint id space (wall caps at 4,444)
 
     // ── Staking ───────────────────────────────────────────────────────────────
     uint256 public constant STAKE_MAX_BITS = 8;     // decision sheet row 4, doc:200
@@ -418,7 +418,7 @@ event RentClaimed(uint256 indexed tokenId, address indexed holder, uint256 amoun
             amount = (amount * (100 + boost)) / 100;
         }
 
-        bot.mint(msg.sender, amount);
+        pool.dispenseBot(msg.sender, amount);
         totalWeight -= catWeight[tokenId]; // the bot's weight leaves the pool permanently
         aliveCount--;
         burnedCount++;
@@ -516,7 +516,7 @@ event RentClaimed(uint256 indexed tokenId, address indexed holder, uint256 amoun
         aliveCount += 1;
         _safeMint(msg.sender, outId);
 
-        bot.mint(msg.sender, FORGE_REWARD);
+        pool.dispenseBot(msg.sender, FORGE_REWARD);
 
         _refundExcess(msg.sender, fee);
 

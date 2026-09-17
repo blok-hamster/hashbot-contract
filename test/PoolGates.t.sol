@@ -14,7 +14,7 @@ contract PoolGatesTest is HashBotsTestBase {
     address internal carol = address(0xC0FFEE);
 
     function setUp() public {
-        _deployFull(1, 16376, 200, 1024, 16, 0);
+        _deployFull(1, 4444, 200, 1024, 16, 0);
     }
 
     // ── setSwapRouter: set-once ──────────────────────────────────────────────

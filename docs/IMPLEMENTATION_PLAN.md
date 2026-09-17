@@ -75,7 +75,7 @@ keccak256( abi.encodePacked( msg.sender[20], uint64 nonce BE[8], prevWork[32], a
 | Retarget (every 8 mints vs 10s pace) | `newBase = baseTarget / 2` if too fast, `*4` if too slow; clamped to floor | RETARGET_WINDOW=8, TARGET_INTERVAL=10, MAX_RETARGET_UP=2, MAX_RETARGET_DOWN=4 |
 | Network burst | `+1 bit per mint`, cap 16 → `currentTarget = baseTarget >> networkBurst` | BURST_SHIFT_CAP=16 |
 | Personal burst | `+1 bit per miner mint`, cap 16 → `targetFor = currentTarget >> personalBurst[addr]` | BURST_SHIFT_CAP=16 |
-| Wall | after cat 16,376: `newBase /= (1 + (minted-16376)/200)` | WALL_FROM=16376, WALL_DIV=200 |
+| Wall | after cat 4,444: `newBase /= (1 + (minted-4444)/200)` | WALL_FROM=4444, WALL_DIV=200 |
 | Failsafe | admin `setPace`: if idle > FAILSAFE_MAX windows → halve difficulty, emit `PaceChanged` | FAILSAFE_MAX=20 |
 
 Target conversion: `_bitsToTarget(b) = (1<<256) - (1<<(256-b))`, i.e. `≈ 2^(256-b)`; `targetBits(t) = 256 - t.bit_length()`.

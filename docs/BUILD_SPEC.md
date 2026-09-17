@@ -26,7 +26,7 @@ PowBots(string name, string symbol, IHashToken token, IPool pool,
         uint256 uniqueWindow, uint256 uniqueTotal)
 ```
 
-Production values: `floorBits=26`, `wallFrom=16376`, `wallDiv=200`,
+Production values: `floorBits=26`, `wallFrom=4444`, `wallDiv=200`,
 `uniqueWindow=1024`, `uniqueTotal=16`.
 
 Getter hints for wiring: `PowBots.mintPrice()`, `uniquesRemaining()`,
