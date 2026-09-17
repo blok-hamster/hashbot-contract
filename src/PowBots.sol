@@ -251,9 +251,12 @@ event RentClaimed(uint256 indexed tokenId, address indexed holder, uint256 amoun
     }
 
     /// @dev Personal target: (baseTarget >> networkBurst) >> personalBurst-after-staking.
+    ///      Capped at 20 bits max difficulty (1,048,576 hashes max) so searching always finishes in ~1-10s.
     function targetFor(address miner) public view returns (uint256) {
         uint256 t = baseTarget >> effectiveNetworkBurst();
-        return t >> effectivePersonalBurst(miner);
+        uint256 target = t >> effectivePersonalBurst(miner);
+        uint256 minTarget = PowBotsLib.bitsToTarget(20);
+        return target < minTarget ? minTarget : target;
     }
 
     /// @dev Effective target bit-width for humans/UI.
